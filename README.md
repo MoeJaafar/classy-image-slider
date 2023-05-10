@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Picture Slide React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Picture Slide React App that showcases a series of pictures. Users can slide through the pictures using their mouse or touch events on a touch-enabled device.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Allows users to interact with images through click-and-drag or touch-and-drag on touch-enabled devices.
+- Responsive design that adjusts to different screen sizes.
+- Smooth slide transitions between pictures.
+- Links to the author's GitHub profile.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+First, clone the repository to your local machine:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+git clone https://github.com/MoeJaafar/classy-image-slider.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Navigate into the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+cd classy-image-slider
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Next, install the required dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Start the application in development mode:
 
-## Learn More
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Your app should now be running on [localhost:3000](http://localhost:3000).
 
-### Code Splitting
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To create a production build, use:
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm run build
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+After running this command, you can serve your app with a static server. More information can be found in the `Create React App` documentation [here](https://create-react-app.dev/docs/deployment).
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[MIT](https://choosealicense.com/licenses/mit/)
 
-### `npm run build` fails to minify
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any questions, you can contact me or open an issue on the repository.
