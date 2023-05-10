@@ -1,4 +1,4 @@
-# Picture Slide React App
+# Classy Image Slider React App
 
 This is a Picture Slide React App that showcases a series of pictures. Users can slide through the pictures using their mouse or touch events on a touch-enabled device.
 
